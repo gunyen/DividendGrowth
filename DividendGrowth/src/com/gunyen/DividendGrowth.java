@@ -5,6 +5,10 @@ public class DividendGrowth {
     private double growthPercent;
     private double yearEnd;
 
+    public DividendGrowth(double dividend, double growthPercent) {
+        this(dividend,growthPercent, 0);
+    }
+    
     public DividendGrowth(double dividend, double growthPercent, double yearEnd) {
         this.dividend = dividend;
         this.growthPercent = growthPercent / 100;
