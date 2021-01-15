@@ -24,7 +24,7 @@ public class DividendGrowth {
     }
 
     public void yearGrowth(){
-        System.out.println("Initial investment of $" + getDividend() + " at " + (growthPercent*100) + "%");
+        System.out.println("Initial investment of $" + getDividend() + " at " + (this.growthPercent*100) + "%");
         double month = 0;
         for(double i = 1; i <= 12; i++){
             month = this.dividend * this.growthPercent;
